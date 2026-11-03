@@ -3,7 +3,7 @@ const config: NextConfig = {
   output: 'export',
   basePath: '/FIFTEEEN',
   env: { NEXT_PUBLIC_BASE_PATH: '/FIFTEEEN' },
-  experimental: { outputFileTracingRoot: process.cwd() },
+  distDir: 'out',
   turbopack: { root: process.cwd() },
   images: { unoptimized: true },
   poweredByHeader: false
